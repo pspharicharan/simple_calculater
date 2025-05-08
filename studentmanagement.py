@@ -14,7 +14,6 @@ def add_student():
     id = input("enter the id:")
     name=input('enter name:')
     age=input('enter age:')
-    bloodgroup=input('enter bloodgroup:)
     grade=input('enter a grade:')
     cursor.execute("insert into students(id,name,age,grade)values(%s,%s,%s,%s)",(id,name,age,grade))
     conn.commit()
