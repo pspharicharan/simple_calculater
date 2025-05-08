@@ -1,3 +1,4 @@
+#added a comment
 from random import choice
 from tkinter.font import names
 import mysql.connector
